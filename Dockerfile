@@ -24,8 +24,8 @@ RUN wget -c https://nodejs.org/dist/v0.10.40/node-v0.10.40.tar.gz \
 # wekan
 RUN cd /app \
     && apt-get install -y wget \
-    && wget -c https://github.com/wekan/wekan/releases/download/v0.11.0-rc2/wekan-0.11.0-rc2.tar.gz \
-    && tar zxvf wekan-0.11.0-rc2.tar.gz \
+    && wget -c https://github.com/wekan/wekan/releases/download/v0.10.1/wekan-0.10.1.tar.gz \
+    && tar zxvf wekan-0.10.1.tar.gz \
     && cd bundle/programs/server \
     && npm install
 
